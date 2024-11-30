@@ -42,7 +42,7 @@ h1{
     color: white;
     font-size: 250%;
 }
-.h6{
+h6{
     color: white;
     font-size: 200%;
 }
@@ -137,7 +137,8 @@ h2{
     "div1 div1 div1 div3";
     gap: 2px;
 }
-.child1{    grid-area: div1;
+.child1{    
+    grid-area: div1;
     width: 860px;
     height: 520px;
     background-color: black;
@@ -177,7 +178,7 @@ h2{
     margin-top: 10%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    
     margin-left: 10%;
     gap: 157px;
     
@@ -215,6 +216,7 @@ footer{
     align-items: center;
     justify-content: center;
     justify-content: space-around;
+    margin-top: 70px;
 
 
 }
